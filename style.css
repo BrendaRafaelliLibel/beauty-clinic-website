@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+/* Header */
+header {
+    background: #e91e63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #f8bbd0;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e91e63;
+}
+
+/* Banner */
+.banner {
+    height: 300px;
+    background: url("https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg") center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Serviços */
+.servicos {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: #fce4ec;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Contato */
+.contato {
+    padding: 40px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px;
+    background: #e91e63;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c2185b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f8bbd0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* ESSENCIAL */
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+    background: #fce4ec;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
